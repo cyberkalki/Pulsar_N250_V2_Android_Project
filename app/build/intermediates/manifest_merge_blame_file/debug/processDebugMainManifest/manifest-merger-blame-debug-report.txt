@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cyberkalki.n250v2"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:2:5-66
+11-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:3:5-78
+12-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:3:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:4:5-80
+13-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:5:5-76
+14-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:5:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+15-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:6:5-85
+15-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:6:22-83
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:7:5-76
+16-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:7:22-74
+17    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+17-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:8:5-75
+17-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:8:22-73
+18    <uses-permission
+18-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:9:5-119
+19        android:name="android.permission.BLUETOOTH_SCAN"
+19-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:9:22-70
+20        android:usesPermissionFlags="neverForLocation" />
+20-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:9:71-117
+21    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+21-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:10:5-77
+21-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:10:22-75
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:11:5-75
+22-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:11:22-73
+23    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+23-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:12:5-75
+23-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:12:22-73
+24    <uses-permission
+24-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:13:5-124
+25        android:name="android.permission.NEARBY_WIFI_DEVICES"
+25-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:13:22-75
+26        android:usesPermissionFlags="neverForLocation" />
+26-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:13:76-122
+27    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+27-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:14:5-80
+27-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:14:22-78
+28
+29    <permission
+29-->[androidx.core:core:1.15.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\c623851f93e49a8f74c41cb69e418e68\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+30        android:name="com.cyberkalki.n250v2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.15.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\c623851f93e49a8f74c41cb69e418e68\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.15.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\c623851f93e49a8f74c41cb69e418e68\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.cyberkalki.n250v2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.15.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\c623851f93e49a8f74c41cb69e418e68\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.15.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\c623851f93e49a8f74c41cb69e418e68\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:15:5-24:19
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.15.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\c623851f93e49a8f74c41cb69e418e68\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:label="N250 Smart Dash 2.0"
+39-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:15:82-117
+40        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+40-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:15:18-81
+41        android:usesCleartextTraffic="false" >
+41-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:15:118-154
+42        <activity
+42-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:16:9-18:20
+43            android:name="com.cyberkalki.n250v2.MainActivity"
+43-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:16:19-47
+44            android:configChanges="orientation|screenSize|keyboardHidden"
+44-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:16:92-153
+45            android:exported="true"
+45-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:16:154-177
+46            android:screenOrientation="sensorLandscape" >
+46-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:16:48-91
+47            <intent-filter>
+47-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:17:13-154
+48                <action android:name="android.intent.action.MAIN" />
+48-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:17:28-79
+48-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:17:36-77
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:17:79-138
+50-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:17:89-136
+51            </intent-filter>
+52        </activity>
+53
+54        <service
+54-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:19:9-21:19
+55            android:name="com.cyberkalki.n250v2.MediaListener"
+55-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:19:18-47
+56            android:exported="true"
+56-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:19:159-182
+57            android:label="N250 Media Controls"
+57-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:19:48-83
+58            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+58-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:19:84-158
+59            <intent-filter>
+59-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:20:13-125
+60                <action android:name="android.service.notification.NotificationListenerService" />
+60-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:20:28-109
+60-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:20:36-107
+61            </intent-filter>
+62        </service>
+63        <service
+63-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:22:9-121
+64            android:name="com.cyberkalki.n250v2.RideLocationService"
+64-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:22:18-53
+65            android:exported="false"
+65-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:22:54-78
+66            android:foregroundServiceType="location" />
+66-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:22:79-119
+67        <service
+67-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:23:9-73
+68            android:name="com.cyberkalki.n250v2.PhoneSensors"
+68-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:23:18-46
+69            android:exported="false" />
+69-->E:\N250\Pulsar_N250_V2_Android_Project\app\src\main\AndroidManifest.xml:23:47-71
+70
+71        <provider
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+73            android:authorities="com.cyberkalki.n250v2.androidx-startup"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+77                android:value="androidx.startup" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+78        </provider>
+79
+80        <receiver
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+81            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+82            android:directBootAware="false"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+83            android:enabled="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+84            android:exported="true"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+85            android:permission="android.permission.DUMP" >
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+87                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+90                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+93                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+96                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhuva\.gradle\caches\8.10.2\transforms\d8a8b2ffa71fd44c7e7f47dd3487ff47\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+97            </intent-filter>
+98        </receiver>
+99    </application>
+100
+101</manifest>
